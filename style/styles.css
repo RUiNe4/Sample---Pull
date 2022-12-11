@@ -1,0 +1,70 @@
+main{
+  position: relative;
+  width: 500px;
+}
+header{
+  position: relative;
+  background-color: #F79339;
+  height: 200px;
+  padding: 20px 50px;
+  margin: 0;
+}
+
+header img{
+  width: 400px;
+}
+
+.overlay{
+  position: absolute;
+  top: 120px;
+  left: 0;
+  background-image: url(../assets/bg.png);
+  width: 100%;
+  height: 150px;
+  clip-path: polygon(90% 0, 100% 38%, 100% 100%, 0 100%, 0 0); 
+  z-index: 3;
+}
+
+.stats{
+  opacity: 1;
+  padding: 140px 50px 30px 50px;
+}
+
+.blue-bg{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background-color: #13264A;
+  z-index: 2;
+}
+
+.stats ul, li{
+  font-family: 'Niradei Regular';
+  list-style: none;
+  color: white;
+  font-size: 20px;
+}
+
+.stats ul li span{
+  font-family: 'Niradei Bold';
+}
+
+.pf-pic{
+  /* display: flex; */
+  position: relative;
+  top: -135px;
+  left: 25%;
+  right: 25%;
+  z-index: 5;
+  width: 250px;
+  height: 250px;
+  background-color: #F2F2F2;
+  border: 5px solid white;
+  clip-path: polygon(80% 0, 100% 20%, 100% 100%, 0 100%, 0 0);
+}
+
+.pf-pic img{
+  width: 250px;
+  object-fit: contain;
+}
+

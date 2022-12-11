@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Niradei Bold';
+  src: url(../assets/cadt/Niradei-Bold.ttf);
+}
+
+@font-face{
+  font-family: 'Niradei Regular';
+  src: url(../assets/cadt/Niradei-Regular.ttf);
+}
+
+@font-face{
+  font-family: 'Cadt Mono';
+  src: url(../assets/cadt/CADTMonoDisplay-Regular.ttf);
+}
+
+body{
+  margin: 0;
+  /* padding: 0 450px 100px 450px; */
+  /* margin: auto; */
+  /* overflow: hidden; */
+}
+
